@@ -27,3 +27,7 @@
 - IAM, Service Accounts, Copy Role to another project 
 - Predifined Roles for BigQuery, CloudSQL and Billing ,know permissions 
 - Permissions while working with few projects and Organization
+
+https://cloud.google.com/certification
+https://google.qwiklabs.com
+udemy.com/associate cloud engiener
