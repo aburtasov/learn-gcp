@@ -1,0 +1,12 @@
+select project любой, где хотим создать web server 
+
+compute engine -> create (type n1-standard-1(1vCPU, 3.75GB)), boot disk(CentOS 7)
+
+select ssh -> ssh connect to server
+
+sudo yum install httpd 
+
+cd /var/www/html -> vi index.html 
+
+sudo service httpd restart
+
