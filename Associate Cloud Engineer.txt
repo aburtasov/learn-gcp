@@ -1,0 +1,29 @@
+Что читать:
+- Курс GCP Fundamentals AWS Professionals
+- Курс A Cloud Guru, есть на Udemy
+- Книга - Official Google Cloud Certified Associate Cloud Engeener Study Guid
+- Qwiklabs Quests: GCP Essentilas, Cloud Architecture
+- Документация, а именно Google Recommended Best Practies и FAQ
+- Coursera чуть-чуть 
+- Youtube видео с Google Cloud Platform 
+- Тесты на BrainCert 
+- Official Practice Test 20 questions
+
+Что нужно знать:
+- Cloud Storage - storage classes, versionong, object status,lifecycles
+- gcloud - commands and gcloud configurations
+- AppEngine - how to split, deploy, update, migrate
+- Kubernetes - components understanding, kubectl commands and gloud commands
+- SQL datastores - when to use: CloudSQL, Cloud Spanner, BigQuery
+- NoSQL datastores - when to use: BigTable, Datastore ,Cloud Firestore
+- VPC - SharedVPC Organization only, Custom VPC, VPC beetwen projects, peering, VPN
+- Billing Account - linking to project, change billing, Exports to Cloud Storage and BigQuery 
+- Know where you use Auto-Healing(Managed Group), Auto-Upgrade(k8s), Auto-Repair(k8s)
+- StackDriver monitoring,logs,exports, activity logs 
+- SSH key Management for One Instance and for All Instances in the Project 
+- How to make Login to Windows Instance from console and from gloud 
+- Network Firewall Rules, allow/deny,priority of rules 
+- Allowed maximal /8 and minimal /29 CIDR for Subnet 
+- IAM, Service Accounts, Copy Role to another project 
+- Predifined Roles for BigQuery, CloudSQL and Billing ,know permissions 
+- Permissions while working with few projects and Organization
