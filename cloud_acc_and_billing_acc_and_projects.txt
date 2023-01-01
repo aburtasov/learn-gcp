@@ -1,0 +1,15 @@
+cloud.google.com 
+
+free account for lessons 
+
+account = gmail
+
+console 
+
+activate account 
+
+billing account - нужен для привязки к вашей Credit Card
+
+project - линкуется к billing account, тут создаются ресурсы
+
+console -> billing service  - вся инфа о биллинге
