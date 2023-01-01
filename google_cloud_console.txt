@@ -1,0 +1,32 @@
+console = ui
+
+list all services in top left corner
+
+select project = projects where create resources
+
+organization can have projects
+
+select project -> create project 
+
+поиск 
+
+feedback
+
+help -> docs 
+
+notification
+
+activate cloud shell -> run vm with soft -> все что можно
+сделать через консоль, можно запустить на этой вм через gloud commands
+
+gloud config set project ID
+
+на вм можно устанавливать софт, создавать файлы и тп. состояние вм сохраняется
+
+commands: gcloud projects list , gcloud auth list
+
+select project -> home -> shutdown (delete project) 
+manage resources -> select project -> delete
+
+
+
