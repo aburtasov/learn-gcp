@@ -1,0 +1,13 @@
+for linux:
+
+https://cloud.google.com/sdk/docs/install
+
+gcloud --version
+
+gcloud init -> login to your gcp account
+
+gcloud auth list
+
+gloud projects list 
+
+
