@@ -1,4 +1,4 @@
-select project любой, где хотим создать web server 
+select any project where we want to create a web server 
 
 compute engine -> create (type n1-standard-1(1vCPU, 3.75GB)), boot disk(CentOS 7)
 

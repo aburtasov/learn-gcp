@@ -8,8 +8,8 @@ console
 
 activate account 
 
-billing account - нужен для привязки к вашей Credit Card
+billing account - needed to link to your Credit Card
 
-project - линкуется к billing account, тут создаются ресурсы
+project - linking to billing account, resources are created here
 
-console -> billing service  - вся инфа о биллинге
+console -> billing service  - вся инфа о биллинге (billing information)
