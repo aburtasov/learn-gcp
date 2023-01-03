@@ -1,0 +1,15 @@
+for windows:
+
+https://cloud.google.com/sdk/docs/install
+
+power shell -> gcloud --version
+
+gcloud init -> setting your gcp account
+
+gcloud auth list
+gloud projects list 
+
+
+
+
+
