@@ -1,0 +1,51 @@
+Users, Groups, Permissions, Roles
+
+gcp-users = gmail (учетная запись авторизованная google,например GMAIL)
+создание users происходит в Google Admin G-Suite или интегрированной системе(AD)
+удаление users происходит в Google Admin G-Suite или интегрированной системе(AD)
+
+gcp-groups
+all actions with groups -> Google Admin G-Suite
+
+gcp-iam permissions
+permission это разрешение выполнять одно определенное действие
+Формат: Service.Resource.Verb
+Пример:
+- compute.instances.create
+- compute.instances.delete
+- compute.instances.start
+- storage.buckets.create (directory)
+- storage.object.create (files)
+- storage.buckets.list
+- storage.object.list
+- etc
+
+gcp-iam roles 
+Role это коллекция или набор permissions
+
+- Primitive Roles - Сделаны Google, назначаются на уровне каждого Project :
+* Browser(roles/browser)
+* Viewer (roles/viwer)
+* Editor (roles/editor) all actions except billing
+* Owner (roles/owner)
+
+- Predefined Roles - Сделаны Google, состоят из коллекции определнных Permissions :
+* Compute Instance Admin (roles/compute.instanceAdmin)
+* Storage Admin (roles/storage.admin)
+* Storage Object Viwer 
+* Cloud SQL Admin
+* etc
+
+- Custom Roles - your custom roles 
+
+=======================================
+
+Назначение прав доступа для Users/Groups происходит в GCP IAM & admin
+Создание Custom IAM Role -> IAM & admin
+ 
+=======================================
+
+console -> select project 
+
+service -> IAM & admin -> Roles 
+
