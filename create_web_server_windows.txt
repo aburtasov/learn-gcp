@@ -1,0 +1,12 @@
+compute engine -> create instance(prod-webserver-win)
+
+boot disk -> windows server 2019 datacenter
+
+settings -> set userpassword
+
+rdp connect to server 
+
+install role internet information service
+
+c://inetpub/wwwroot -> create index.html 
+
