@@ -1,0 +1,14 @@
+Plan
+1. Project STAG. Create IAM Role for create,delete compute instance 
+2. Project PROD. Create IAM Role for create,delete compute instance
+3. Add GMAIL user in both projects and get Custom IAM Role 
+4. Testing 
+
+========================
+
+console -> select project -> roles -> create role 
+my-custome-role-stag - general availability -> add permissions (browser role,compute.instances.create,delete,list,get,resume...compute.projects.get...etc)
+
+========================
+
+iam -> add -> gmail user -> select role
