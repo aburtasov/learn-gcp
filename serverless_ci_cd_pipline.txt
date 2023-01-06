@@ -30,3 +30,6 @@ console(Project:Management) -> Cloud Build -> Connect Cloud Build with GitHub ->
 Triggers -> Create Trigger(use cloud build configuration file)
 
 Add roles to service account Cloud Build in Project:Production (Permissions:Cloud Run Admin, Service Account User)
+
+console(Project:Management) -> ArtifactRegistry -> show info panel -> add principals -> Cloud Build service account -> role ArtifactRegistry Writer
+console(Project:Management) -> ArtifactRegistry -> show info panel -> add principals -> Cloud Run service account -> role ArtifactRegistry Reader
