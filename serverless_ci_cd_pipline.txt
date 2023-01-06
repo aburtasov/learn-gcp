@@ -1,0 +1,10 @@
+Деплой Cloud Functions из GitHub через Cloud Build
+
+Developers -> GitHub -> Cloud Build App --push to main--> Project:Management (Cloud Build Step_Build,
+Cloud Build Step_Test,Cloud Build Step_Deploy) ---> Project:Production(Cloud Function, MyApp-Prod)
+
+console(Project:Production) -> Cloud Function -> Create Function -> node.js app 
+
+console(Project:Management) -> Cloud Build -> Connect Cloud Build with GitHub -> Select Repository -> Connect
+Triggers -> Create Trigger
+
