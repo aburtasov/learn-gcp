@@ -8,3 +8,6 @@ console(Project:Production) -> Cloud Function -> Create Function -> node.js app
 console(Project:Management) -> Cloud Build -> Connect Cloud Build with GitHub -> Select Repository -> Connect
 Triggers -> Create Trigger
 
+Cloud Build enable API 
+
+Add roles to service account Cloud Build in Project:Production (Permissions:Cloud Functions Developer, Service Account User)
